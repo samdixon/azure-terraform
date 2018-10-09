@@ -1,0 +1,5 @@
+provider "azurerm" {
+    // Azure CLI
+}
+
+
