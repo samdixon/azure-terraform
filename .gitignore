@@ -1,1 +1,4 @@
 .terraform
+varfile.tfvars
+*.tfstate
+*.tfstate.backup
