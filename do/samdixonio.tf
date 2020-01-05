@@ -12,7 +12,7 @@ resource "digitalocean_domain" "samdixonio_domain" {
 resource "digitalocean_record" "vesper" {
   domain = digitalocean_domain.samdixonio_domain.name
   type = "A"
-  name = "www"
+  name = "vesper"
   value = var.samdixonio_vesper_ip
   ttl = var.defaults_ttl
 }
